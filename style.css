@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Itim&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.nav-bar {
+    grid-column: 1/11;
+    background-color:pink; /* Changed */
+    height: fit-content;
+
+    
+}
+
+.body {
+    grid-column: 1/11;
+    background-color: black; /* Added */
+    /* other styles... */
+}
+
+.image--section {
+    width: auto;
+    overflow: hidden;
+    background-color: black; /* Added */
+}
+
+.image-- {
+    grid-column: 1/11;
+    background-color: black; /* Added */
+    /* other styles... */
+}
+
+.text2 div {
+    background-color: white; /* Changed */
+    height: 50vh;
+    width: 100%;
+}
+li:nth-child(4) {
+    float: center;
+}
+
+.text {
+    grid-column: 6/11;
+    display: grid;
+    place-items: center;
+}
+
+.body {
+    grid-column: 1/5;
+    background-color: black;
+    /* height: 95vh;
+
+    background-image: url('https://images.pexels.com/photos/28148096/pexels-photo-28148096/free-photo-of-a-palm-tree-is-shown-against-a-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center; */
+
+  img {
+        width: 90%;
+        height: 80%;
+      margin: 10% 0% 0% 10%;
+}
+}
+
+.image--section {
+    width: auto;
+    overflow: hidden;
+}
+narv ul li{
+       float:right;
+    margin-inline:20px;
+    font-size:2rem;
+    list-style:none;
+    line-height: 70px;
+    
+}
+
+.image--section img {
+    width: 60%;
+    height: 100vh;
+}
+
+.content--in {
+    display: flex;
+    flex-direction: row;
+}
+
+ li:nth-child(1)
+{float:left};
+
+.text--section {
+    display: grid;
+    place-items: center;
+}
+
+.text2 div {
+    background-color: rgb(10, 199, 136);
+    height: 50vh;
+    width: 100%;
+}
+
+.image-- {
+    grid-column: 1/11;
+    /* background-color: rgb(6, 6, 6); */
+    /* height: 95vh;
+
+    background-image: url('https://images.pexels.com/photos/28148096/pexels-photo-28148096/free-photo-of-a-palm-tree-is-shown-against-a-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center; */
+
+    img {
+        width: 90%;
+        height: 80%;
+        border-radius: 50%;
+        margin: 10% 0% 0% 10%;
+    }
+}
+
+
+
+nav ul li {
+    justify-content: center;
+    display: inline-block;
+    margin-inline: 20px;
+    font-size: 2rem;
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li {
+    margin-block: 1rem !important;
+}
+@media screen and (max-width: 300px) {
+    .image-me img {
+        display: none ;
+        
+    }
+}
